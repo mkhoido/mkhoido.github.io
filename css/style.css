@@ -279,3 +279,9 @@ input[type=submit] {
 #socialmediaicons {
   margin-top: -15px;
 }
+
+resolve: {
+  alias: {
+    'assets': resolve('your/path/to/assets')
+  }
+}
