@@ -28,7 +28,7 @@ main {
   background-image:url("https://lawrencecheng123.github.io/Seattle.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-color: #e9e9e9;
+  background-color: red;
 }
 
 nav {
