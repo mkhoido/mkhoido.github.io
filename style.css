@@ -24,6 +24,15 @@ body{
 	src: url('fonts/hknova.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'hk_novamedium_r';
+    src: url('hknova-webfont.woff2') format('woff2'),
+         url('hknova-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Classes */
 
 main {
@@ -147,7 +156,7 @@ figure {
 }
 
 #rightcol {
-  font-family: 'hknova';
+  font-family: 'hk_novamedium_r';
   font-size: 70%;
   color: #FFFFFF;
   background-color: #ce1d43;
